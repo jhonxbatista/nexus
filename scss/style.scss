@@ -1,0 +1,29 @@
+/*
+	Nexus Vistorias - Bootstrap Theme with sass
+	Author: João Batista Gomes Silva
+	Version: 0.1
+	Year: 2015
+*/
+
+*{font-family: 'Titillium Web', sans-serif;}
+
+/*
+	Bootstrap Variables
+*/
+@import "vendors/bootstrap/bootstrap/variables";
+
+/*
+	Bootstrap Mixins
+*/
+@import "vendors/bootstrap/bootstrap/mixins";
+
+/*
+	Menu Style
+*/
+@import "menu";
+
+/*
+	Sections Style
+*/
+@import "sections";
+

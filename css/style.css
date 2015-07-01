@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/*
+	Nexus Vistorias - Bootstrap Theme with sass
+	Author: Jo├úo Batista Gomes Silva
+	Version: 0.1
+	Year: 2015
+*/
+* {
+  font-family: 'Titillium Web', sans-serif; }
+
+/*
+	Bootstrap Variables
+*/
+/*
+	Bootstrap Mixins
+*/
+/*
+	Menu Style
+*/
+* {
+  padding: 0;
+  margin: 0; }
+
+@media screen and (min-width: 995px) {
+  .navbar-default {
+    background-color: #00ABEA;
+    border-bottom: 3px solid #032240;
+    height: 80px;
+    margin: 0; }
+    .navbar-default .container .navbar-brand {
+      padding-top: 0px;
+      position: relative;
+      margin-top: 10px; }
+    .navbar-default .container .navbar-nav li a {
+      color: #fff;
+      font-size: 16px;
+      height: 77px;
+      padding: 30px 20px; }
+      .navbar-default .container .navbar-nav li a:hover {
+        background-color: #032240; }
+      .navbar-default .container .navbar-nav li a:active {
+        background-color: #003999; }
+    .navbar-default .container .navbar-nav .active > a {
+      height: 80px;
+      background-color: #fff;
+      color: #00ABEA;
+      border-bottom: 3px solid #00ABEA; }
+      .navbar-default .container .navbar-nav .active > a:hover {
+        background-color: #fff;
+        color: #00ABEA; }
+      .navbar-default .container .navbar-nav .active > a:active {
+        background-color: #fff;
+        color: #00ABEA; } }
+/*
+	Sections Style
+*/
+#welcome {
+  width: 100%;
+  padding: 180px 0 100px 0;
+  background: url(../images/bg-bem-vindo.jpg) no-repeat;
+  background-size: cover; }
+
+#services1 {
+  list-style: none;
+  overflow: hidden;
+  padding: 100px 0;
+  background-color: #E9F8FF; }
+  #services1 .services1-content h3 {
+    font-size: 30px;
+    color: #022438; }
+  #services1 .services1-content li {
+    padding: 10px 0;
+    font-size: 16px;
+    margin-left: 12px; }
+  #services1 .services1-content .btn {
+    margin: 10px 0px 0px 10px; }
+
+#services2 {
+  list-style: none;
+  overflow: hidden;
+  padding: 100px 0;
+  background-color: #D1FFF8; }
+  #services2 .services2-content h3 {
+    font-size: 30px;
+    color: #022438; }
+  #services2 .services2-content li {
+    padding: 10px 0;
+    font-size: 16px;
+    margin-left: 12px; }
+  #services2 .services2-content .btn {
+    margin: 10px 0px 0px 10px; }
+
+/*# sourceMappingURL=style.css.map */

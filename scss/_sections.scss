@@ -1,0 +1,59 @@
+#welcome{
+	width:100%;
+	padding:180px 0 100px 0;
+	background:url(../images/bg-bem-vindo.jpg) no-repeat;
+	background-size:cover;
+}
+
+#services1{
+list-style:none;
+overflow:hidden;
+padding: 100px 0;
+background-color:#E9F8FF;
+	.services1-content{
+		
+		h3{
+			font-size:30px;
+			color:#022438;
+		}
+		
+		li{
+			padding:10px 0;
+			font-size: 16px;
+			margin-left:12px;
+		}
+		
+		.btn{
+			margin:10px 0px 0px 10px ;
+		}
+		
+		
+	}
+	
+}
+#services2{
+list-style:none;
+overflow:hidden;
+padding: 100px 0;
+background-color:#D1FFF8;
+	.services2-content{
+		
+		h3{
+			font-size:30px;
+			color:#022438;
+		}
+		
+		li{
+			padding:10px 0;
+			font-size: 16px;
+			margin-left:12px;
+		}
+		
+		.btn{
+			margin:10px 0px 0px 10px ;			
+		}
+		
+		
+	}
+	
+}
