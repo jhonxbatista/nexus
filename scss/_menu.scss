@@ -57,3 +57,59 @@
 	}
 }
 }
+
+@media screen and (max-width: 995px){
+
+	.navbar-default{
+	background-color: #00ABEA;
+	border-bottom: 3px solid #032240;
+	height: 80px;
+	margin:0;
+	
+	.container{
+		
+		.navbar-nav{
+			
+			li{
+				a{
+					color: #fff;
+					font-size: 16px;
+					height: 77px;
+					padding:  20px 10px ;
+
+					&:hover{
+
+						background-color: #032240;
+					}
+
+					&:active{
+						background-color: #003999;
+
+					}
+				}
+			}
+
+			.active > a{
+				height: 80px;
+				background-color:#fff;
+				color: #00ABEA;
+				border-bottom: 3px solid #00ABEA;
+
+				&:hover{
+
+					background-color:#fff;
+					color: #00ABEA;
+				}
+
+				&:active{
+
+					background-color:#fff;
+					color: #00ABEA;
+				}
+			}
+			
+		}
+	}
+}
+
+}

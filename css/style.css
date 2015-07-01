@@ -51,6 +51,32 @@
       .navbar-default .container .navbar-nav .active > a:active {
         background-color: #fff;
         color: #00ABEA; } }
+@media screen and (max-width: 995px) {
+  .navbar-default {
+    background-color: #00ABEA;
+    border-bottom: 3px solid #032240;
+    height: 80px;
+    margin: 0; }
+    .navbar-default .container .navbar-nav li a {
+      color: #fff;
+      font-size: 16px;
+      height: 77px;
+      padding: 20px 10px; }
+      .navbar-default .container .navbar-nav li a:hover {
+        background-color: #032240; }
+      .navbar-default .container .navbar-nav li a:active {
+        background-color: #003999; }
+    .navbar-default .container .navbar-nav .active > a {
+      height: 80px;
+      background-color: #fff;
+      color: #00ABEA;
+      border-bottom: 3px solid #00ABEA; }
+      .navbar-default .container .navbar-nav .active > a:hover {
+        background-color: #fff;
+        color: #00ABEA; }
+      .navbar-default .container .navbar-nav .active > a:active {
+        background-color: #fff;
+        color: #00ABEA; } }
 /*
 	Sections Style
 */
